@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+body {
+    font-family:'Russo+One' , sans-serif;
+    font-size: 20px;
+    font-weight: normal; 
+    background: #F0FFFF;  
+}
+
+.sos-text p {
+    font-style: italic;
+    font-weight: 500;
+    opacity: 0.7;
+    margin: 0;
+}
+.card {
+    border: 1px  #9370DB;
+    border-radius: 30px;
+    background: #FFDAB9;
+    padding: 10px 10px;
+    margin-bottom: 30px;
+}
+.crd {
+    border: 1px  #00FA9A;
+    border-radius: 30px;      
+    background: #FFF8DC;
+    padding: 10px 10px;
+
+}
+.container {
+    max-width: 800px;
+    margin:auto;
+    padding-top: 30px ;
+
+}
+.avatar {
+    width: 200px;
+    border-radius: 30px;
+    box-shadow: 4px 4px 14px rgba(#C71585);
+}
+a {
+    color:#483D8B;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+    color: #C71585;
+}
+a:active {
+    color: #C71585;
+}
+.btn {
+    background:#6A5ACD;
+    padding: 10px 10px;
+    color: azure;
+    border: none;
+    font-family:"Russo+One";
+    cursor: pointer;
+    border-radius: 30px;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+
+.card li {
+    margin-bottom: 20px;
+}
+
+.crd {
+    text-align: center;
+}
+
+.crd th {
+    text-align: center;
+}
+
+.rdx h2 {
+    text-align: center;
+}
+
+
+.nnn label {
+    display: block;
+    font-size: 20px;
+    padding:4px 4px;
+
+}
+
+.nnn input,
+.nnn textarea {
+    width: 100%;
+    box-sizing: border-box;
+    border:none;
+    background: transparent;
+    border-bottom: 2px solid black;
+    outline: none;
+    font-family: "Russo+One";
+    margin-bottom: 30px;
+
+
+}
+
+.sos {
+    margin-bottom: 20px;
+}
+
+.dfd {
+    text-align: center;
+} 
+.seli {
+    background: #FFFFFF;
+    border-radius: 30px;
+    padding: 20px 20px;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-top: 30px;
+}
+.uli {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.uli li {
+    margin-bottom: 15px;
+    border-bottom: 1px solid black;
+
+}
+
+.form-row {
+margin-bottom: 10px;
+display: flex;
+}
+
+.form-row .nnn {
+    display: inline-block;
+    margin-right: 20px;
+    width: 50%;
+}
+
+@media (max-width: 650px) {
+    .sos {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 650px) {
+    .form-row {
+        display: block;
+    }
+    .form-row .nnn {
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+}
